@@ -1,0 +1,41 @@
+#main_page
+    - nome
+    - 10 skills
+    - bio
+        > "continue"
+        > "style A"
+        > `see skills`
+        > `check hard-skills`
+        > "skate shop"
+    - "character"
+    - "amateur skater"
+    - photo
+    - "street"
+    - "goofy"
+footer
+    - "select"
+    - "bio"
+    - "X / Y rotate"
+    - "accept"
+    - "back"
+
+#skills setup (trick setup)
+    - soft skills   *
+    - skills        *
+    - hard skills   *
+        * pick button combo to modify
+    - specials
+    - continue
+    - cash
+        - cash total        $ 0
+        - specials used     3 of 5
+footer
+    - select
+    - accept
+    - back
+        - unassing skill (unassign trick)
+
+
+
+#tip aside
+    - TIP: "..."
