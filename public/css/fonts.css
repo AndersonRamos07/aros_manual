@@ -1,0 +1,53 @@
+@font-face
+{
+    font-family: london;
+    src: url("../fonts/76london-fall.ttf");
+}
+@font-face
+{
+    font-family: prince;
+    src: url("../fonts/pricedown-bl.otf");
+}
+
+.ft_lf
+{
+    font-family: london;
+    color: white;
+    font-size: xx-large;
+    font-stretch: ultra-condensed;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: -2px 0 black, 0 2px black,
+                    2px 0 black, 0 -2px black;
+    -webkit-text-stroke-width: 1.6px;
+    -webkit-text-stroke-color: #787878;
+}
+.ft_pd
+{
+    font-family: prince;
+}
+.tx_uc
+{
+    font-size: 34px;
+}
+.tx_lc
+{
+    font-size: 24px;
+}
+span.tx_op
+{
+    visibility: hidden;
+}
+
+.select_down > li
+{
+    color: #df8e3e;
+    font-size: x-large;
+    font-stretch: ultra-condensed;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: -1px 0 black, 0 1px black,
+                    1px 0 black, 0 -1px black;
+    -webkit-text-stroke-width: 1.6px;
+    -webkit-text-stroke-color: #664113;
+}

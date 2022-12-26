@@ -1,0 +1,14 @@
+li
+{
+    list-style-type: none;
+}
+ul.select_down
+{
+    margin: auto 10px;
+    width: 100vw;
+}
+.select_down > li
+{
+    display: inline;
+    justify-content: space-around;
+}
