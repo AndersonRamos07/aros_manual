@@ -5,26 +5,37 @@
 }
 @font-face
 {
+    font-family: nazalization;
+    src: url("../fonts/nasalization-rg.ttf");
+}
+@font-face
+{
     font-family: prince;
     src: url("../fonts/pricedown-bl.otf");
 }
 
+.ft_nz
+{
+    font-family: nazalization;
+}
 .ft_lf
 {
     font-family: london;
-    color: white;
-    font-size: xx-large;
-    font-stretch: ultra-condensed;
-    font-weight: bold;
-    letter-spacing: 2px;
-    text-shadow: -2px 0 black, 0 2px black,
-                    2px 0 black, 0 -2px black;
-    -webkit-text-stroke-width: 1.6px;
-    -webkit-text-stroke-color: #787878;
 }
 .ft_pd
 {
     font-family: prince;
+}
+.custom
+{
+    color: #9fa9c8;
+    font-size: large;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    text-shadow: 1.618px 0 #2b1a1e, 0 1.618px #2b1a1e,
+    1.618px 0 #2b1a1e, 0 1.618px #2b1a1e;
+    -webkit-text-stroke-width: .00000618px;
+    -webkit-text-stroke-color: #787878;
 }
 .tx_uc
 {
@@ -43,11 +54,12 @@ span.tx_op
 {
     color: #df8e3e;
     font-size: x-large;
-    font-stretch: ultra-condensed;
+    font-stretch: condensed;
     font-weight: bold;
+    font-variant: initial;
     letter-spacing: 2px;
-    text-shadow: -1px 0 black, 0 1px black,
-                    1px 0 black, 0 -1px black;
-    -webkit-text-stroke-width: 1.6px;
+    text-shadow: 1.618px 0 black, 0 1.618px black,
+                    1.618px 0 black, 0 1.618px black;
+    -webkit-text-stroke-width: .00618px;
     -webkit-text-stroke-color: #664113;
 }
