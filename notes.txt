@@ -30,9 +30,9 @@ footer
         - cash total        $ 0
         - specials used     3 of 5
 footer
-    - select
-    - accept
-    - back
+    - "select"
+    - "accept"
+    - "back"
         - unassing skill (unassign trick)
 
 
