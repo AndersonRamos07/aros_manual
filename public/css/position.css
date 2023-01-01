@@ -12,3 +12,18 @@ ul.select_down
     display: inline;
     justify-content: space-around;
 }
+.cs-names
+{
+    text-align: right;
+}
+.cs-status
+{
+    text-align: left;
+}
+article.code-skills
+{
+    margin-right: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+}
